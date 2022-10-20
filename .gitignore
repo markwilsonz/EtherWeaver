@@ -1,0 +1,7 @@
+node_modules/
+dist/
+logs/
+*.log
+AGENTS.md
+.DS_Store
+tmp/
