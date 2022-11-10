@@ -1,0 +1,15 @@
+{
+  "panels": [
+    {
+      "name": "daily-journal",
+      "type": "list",
+      "source": "logs/chronicle-journal.md"
+    },
+    {
+      "name": "inspiration",
+      "type": "prompt",
+      "source": "assets/inspiration.json"
+    }
+  ],
+  "notes": "Nothing fancy yet, just a mock layout to keep the instruments aligned."
+}
