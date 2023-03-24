@@ -24,6 +24,7 @@ if (!content.length) {
 }
 
 const timestamp = new Date().toISOString();
-const entry = `- ${timestamp} [${tag}] :: ${content.join(" ").trim()}\n`;
+const note = content.join(" ").trim();
+const entry = `- ${timestamp} [${tag}] :: ${note}\n`;
 fs.appendFileSync(logFile, entry);
 console.log(`Logged: ${note}`);
